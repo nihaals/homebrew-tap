@@ -22,12 +22,12 @@ cask "macforge-beta" do
               "com.macenhance.SIPKit",
             ],
             delete:     [
-              "/Library/Application Support/MacEnhance",
               "/Library/LaunchDaemons/com.macenhance.MacForge.Injector.plist",
               "/Library/PrivilegedHelperTools/com.macenhance.MacForge.Injector",
             ]
 
   zap trash: [
+    "/Library/Application Support/MacEnhance",
     "~/Library/Application Support/com.macenhance.MacForge",
     "~/Library/Application Support/MacEnhance",
     "~/Library/Caches/com.macenhance.MacForge",
