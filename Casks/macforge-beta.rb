@@ -1,14 +1,14 @@
 cask "macforge-beta" do
-  version "1.2.0B1"
-  sha256 "9accfd47b244187b328d20855dc7807a6dcd2be6f6a41f1df34b4964b675d1b8"
+  version "1.2.2-2"
+  sha256 "0f8bb8de80ddd98f34c9465f4a8d4a5587abb4273fefe690f529a5b13a0fea53"
 
-  url "https://github.com/MacEnhance/appcast/raw/master/Beta/MacForge/MacForge.#{version}.zip",
-      verified: "github.com/MacEnhance/appcast/"
+  url "https://github.com/jslegendre/appcast/raw/master/Beta/MacForge/MacForge.#{version}.zip",
+      verified: "github.com/jslegendre/appcast/"
   name "MacForge Beta"
   desc "Plugin, App, and Theme store which includes plugin injection"
   homepage "https://www.macenhance.com/macforge"
 
-  depends_on macos: ">= :mojave"
+  depends_on macos: ">= :big_sur"
 
   app "MacForge.app"
 
