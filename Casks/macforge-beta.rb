@@ -1,6 +1,6 @@
 cask "macforge-beta" do
-  version "1.2.2-2"
-  sha256 "0f8bb8de80ddd98f34c9465f4a8d4a5587abb4273fefe690f529a5b13a0fea53"
+  version "1.2.2-3"
+  sha256 "b316bb4fc6b37dbd3a442eb0ac89549d3e9068ef16603d905e36ad90462333cb"
 
   url "https://github.com/jslegendre/appcast/raw/master/Beta/MacForge/MacForge.#{version}.zip",
       verified: "github.com/jslegendre/appcast/"
