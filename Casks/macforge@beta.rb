@@ -1,4 +1,4 @@
-cask "macforge-beta" do
+cask "macforge@beta" do
   version "1.2.2-3"
   sha256 "b316bb4fc6b37dbd3a442eb0ac89549d3e9068ef16603d905e36ad90462333cb"
 
